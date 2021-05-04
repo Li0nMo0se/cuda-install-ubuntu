@@ -50,7 +50,7 @@ Install cuda:
 * to install the latest cuda: ``$ sudo apt-get -y install cuda``
 * to install a specific version of cuda: ``$ sudo apt-get -y install cuda-{version}``. For instance, to install CUDA 11.3: ``$ sudo apt-get -y install cuda-11-3``
 
-## Setup your environment variables
+## Step 4: Setup your environment variables
 
 Add the following lines in your bashrc.
 
@@ -72,10 +72,10 @@ You can check the installation and the version of cuda by running nvcc.
 
 If it shows the version, it means the installation was successful.
 
-## Test
+## Step 5: Test
 
 ### Handmade hello world
-You can find a code sample of a kernel call in the file ``main.cu``. Then, compile it with nvcc.
+You can find a code sample of a kernel call in the file ``main.cu``. Compile it with nvcc.
 
 ```
 $ nvcc -arch={gpu_arch} main.cu
