@@ -92,7 +92,8 @@ Finally, run the program.
 ```
 $ ./a.out
 ```
-You should see 
+
+The output should be:
 
 ```
 Hello from the host.
